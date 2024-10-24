@@ -1,0 +1,89 @@
+.driver-list-container {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .driver-table {
+    width: 100%;
+    border-collapse: collapse; /* Remove gaps between cells */
+    margin-top: 20px;
+  }
+  
+  .driver-table th,
+  .driver-table td {
+    border: 1px solid #ccc; /* Light border for cells */
+    padding: 10px;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .driver-table th {
+    background-color: #f2f2f2; /* Light gray background for header */
+  }
+  
+  .driver-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row color for readability */
+  }
+  
+  .driver-table tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .driver-table {
+      font-size: 14px; /* Smaller text for mobile */
+    }
+  }
+  .search-bar {
+    /* position: relative; Make the parent position relative for absolute positioning */
+    /* margin: 10px 0; */
+    /* padding-right: 70px; */
+    /* text-align: right; */
+  }
+  
+  .search-bar input {
+    width: 100px;
+    padding: 10px 30px 10px 40px; /* Add padding to the left for the icon */
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 10px;
+    
+    
+  }
+  
+  .search-icon {
+    position: absolute; /* Position the icon absolutely */
+    right: 10px; /* Space from the left */
+    padding-right: 70px;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for perfect centering */
+    color: #888; /* Change the color of the icon */
+    font-size: 20px; /* Adjust the size of the icon */
+  }
+  .edit-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .blacklist-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .edit-btn:hover, .blacklist-btn:hover {
+    opacity: 0.8;
+  }
+  
+    

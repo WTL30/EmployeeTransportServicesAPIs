@@ -1,0 +1,157 @@
+/* .employees {
+    margin-top: 100px;
+    padding: 0 30px;
+    padding-bottom: 50px;
+    color: white;
+  }
+  
+  .employees__wrapper {
+    padding: 20px;
+    border-radius: 5px;
+    background: var(--primary-color);
+  }
+  
+  .employees__title {
+    color: var(--heading-color);
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  
+  .employees__top {
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .employee__btn {
+    border: none;
+    padding: 7px 25px;
+    background: transparent;
+    border-radius: 5px;
+    color: var(--heading-color);
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .active__btn {
+    background: #b7ffe913;
+  }
+  
+  .employee__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  
+  .employee__card {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: var(--primary-color);
+  }
+  
+  .employee__name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--heading-color);
+  }
+  
+  .employee__contact,
+  .employee__license {
+    color: var(--small-text-color);
+    margin-top: 5px;
+  }
+  
+  .add-employees {
+    padding: 20px;
+    background: var(--primary-color);
+    border-radius: 5px;
+  }
+  
+  .add-employees__title {
+    color: var(--heading-color);
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .form__group div {
+    width: 47%;
+  }
+  
+  label {
+    color: var(--heading-color);
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #b7ffe913;
+    color: var(--heading-color);
+    font-size: 1rem;
+  }
+  
+  input[type="file"] {
+    padding: 10px;
+  }
+  
+  .employee__img-btns {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .dlt__btn,
+  .update__btn {
+    border: none;
+    background: transparent;
+    color: #ddd;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .update__btn {
+    color: var(--secondary-color);
+  }
+   */
+
+
+   /* EmployeeTable.css */
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-table th, .employee-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.employee-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.employee-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.employee-table tr:hover {
+  background-color: #f1f1f1;
+}
